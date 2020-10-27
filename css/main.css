@@ -273,6 +273,7 @@ body {
 }
 
 ul {
+  padding: 0;
   list-style-type: none;
 }
 
@@ -294,26 +295,28 @@ ul {
   padding: 0;
   padding-top: 2em;
   width: 100%;
-  display: grid;
-  grid-template-columns: 0.3fr 0.7fr;
-  grid-template-areas: "logo nav";
+  display: flex;
 }
 
 .logo {
-  grid-area: "logo";
   margin-left: 10%;
 }
 
 .other {
-  grid-area: "nav";
-  padding-right: 30%;
+  padding-right: 10%;
+  border: ghostwhite ;
+  border-bottom-style: solid;
+  width: 100%;
+  flex-grow: 4;
+  font-size: 1.5em;
+}
+.other, a {
+  color:ghostwhite;
 }
 
 .navigation {
-  background-color: teal;
   display: flex;
   justify-content: space-around;
-  padding: 0;
 }
 
 .motto {
