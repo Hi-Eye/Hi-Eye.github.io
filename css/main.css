@@ -339,6 +339,8 @@ ul {
   background-image: url("../img/dtu/DTU_Background_Pattern_Red_RGB.jpg");
   background-size: 40%;
   background-repeat: repeat;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .morely {
