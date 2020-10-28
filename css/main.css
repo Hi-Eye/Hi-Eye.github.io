@@ -12,9 +12,11 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: ghostwhite;
+  font-family: 'Poppins', sans-serif;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
 }
@@ -288,7 +290,7 @@ ul {
   background-position: 30%;
   justify-content: center;
   align-content: center;
-  padding-bottom: 5%;
+  padding-bottom: 0;
 }
 
 .topp {
@@ -296,6 +298,8 @@ ul {
   padding-top: 2em;
   width: 100%;
   display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .logo {
@@ -324,7 +328,8 @@ ul {
   margin-right: 0.5em;
   text-shadow: 2px 2px #353533;
   font-size: 5em;
-  color: white;
+  color: ghostwhite;
+  
 }
 
 
@@ -336,17 +341,26 @@ ul {
 }
 
 .mainly {
-  background-image: url("../img/dtu/DTU_Background_Pattern_Red_RGB.jpg");
-  background-size: 40%;
-  background-repeat: repeat;
   padding-top: 2em;
+  background-color: ghostwhite;
+  background-image: url("../img/fence_pattern.svg");
   padding-bottom: 2em;
 }
 
+.text1 {
+  background-color: #343B37;
+  text-align: center;
+  font-size: 1.5em;
+  background-image: url("../img/pattern.svg");
+  background-size: 92%;
+}
+
 .morely {
-  background-image: url("../img/dtu/DTU_Background_Pattern_Blue_RGB.jpg");
+  /* background-image: url("../img/dtu/DTU_Background_Pattern_Blue_RGB.jpg");
   background-size: 40%;
-  background-repeat: repeat;
+  background-repeat: repeat; */
+  /* background-color: #6E845D; */
+  background-color: #D1684A;
   color: white;
 }
 
@@ -354,4 +368,9 @@ ul {
   margin: 0.5em;
   margin-left: 3em;
   margin-right: 3em;
+}
+
+.handle {
+  align-self:center;
+  justify-self: flex-end;
 }
