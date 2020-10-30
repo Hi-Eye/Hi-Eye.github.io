@@ -8,17 +8,17 @@
  */
 
 /* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+	 Base styles: opinionated defaults
+	 ========================================================================== */
 
 html {
-  color: ghostwhite;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1em;
-  line-height: 1.4;
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
+    color: ghostwhite;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 /*
@@ -32,13 +32,13 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+    background: #b3d4fc;
+    text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+    background: #b3d4fc;
+    text-shadow: none;
 }
 
 /*
@@ -46,12 +46,12 @@ html {
  */
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
 
 /*
@@ -66,7 +66,7 @@ iframe,
 img,
 svg,
 video {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 /*
@@ -74,9 +74,9 @@ video {
  */
 
 fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /*
@@ -84,16 +84,16 @@ fieldset {
  */
 
 textarea {
-  resize: vertical;
+    resize: vertical;
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+	 Author's custom styles
+	 ========================================================================== */
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+	 Helper classes
+	 ========================================================================== */
 
 /*
  * Hide visually and from screen readers
@@ -101,7 +101,7 @@ textarea {
 
 .hidden,
 [hidden] {
-  display: none !important;
+    display: none !important;
 }
 
 /*
@@ -114,16 +114,16 @@ textarea {
  */
 
 .sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
 }
 
 /*
@@ -134,13 +134,13 @@ textarea {
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
 }
 
 /*
@@ -148,7 +148,7 @@ textarea {
  */
 
 .invisible {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 /*
@@ -165,212 +165,262 @@ textarea {
 
 .clearfix::before,
 .clearfix::after {
-  content: " ";
-  display: table;
+    content: " ";
+    display: table;
 }
 
 .clearfix::after {
-  clear: both;
+    clear: both;
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the pri?mary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+	 EXAMPLE Media Queries for Responsive Design.
+	 These examples override the pri?mary ('mobile first') styles.
+	 Modify as content requires.
+	 ========================================================================== */
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    ;
+    /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+	 Print styles.
+	 Inlined to avoid the additional HTTP request:
+	 https://www.phpied.com/delay-loading-your-print-css/
+	 ========================================================================== */
 
 @media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
+    *,
+    *::before,
+    *::after {
+        background: #fff !important;
+        color: #000 !important;
+        /* Black prints faster */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
 
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
 
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
+    a[href]::after {
+        content: " (" attr(href) ")";
+    }
 
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
+    abbr[title]::after {
+        content: " (" attr(title) ")";
+    }
 
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
+    /*
+	 * Don't show links that are fragment identifiers,
+	 * or use the `javascript:` pseudo protocol
+	 */
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+        content: "";
+    }
 
-  pre {
-    white-space: pre-wrap !important;
-  }
+    pre {
+        white-space: pre-wrap !important;
+    }
 
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
 
-  /*
-   * Printing Tables:
-   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
-  thead {
-    display: table-header-group;
-  }
+    /*
+	 * Printing Tables:
+	 * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+	 */
+    thead {
+        display: table-header-group;
+    }
 
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
 
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
 
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
 }
 
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 body {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 ul {
-  padding: 0;
-  list-style-type: none;
+    padding: 0;
+    list-style-type: none;
 }
 
 .top-img {
-  background-image: url("../img/sky_rahul_bhosale.webp");
-  height: 20%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  background-position: 30%;
-  justify-content: center;
-  align-content: center;
-  padding-bottom: 0;
+    background-image: url("../img/joel-filipe.jpg");
+    text-shadow: 2px 2px #343B37;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    background-position: 50%;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 0;
 }
 
 .topp {
-  padding: 0;
-  padding-top: 2em;
-  width: 100%;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+    padding: 2em 0 0;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .logo {
-  margin-left: 10%;
+		position: absolute;
+		left: 20%
+}
+
+.logo-img {
+    width: 80%;
 }
 
 .other {
-  padding-right: 10%;
-  border: ghostwhite ;
-  border-bottom-style: solid;
-  width: 100%;
-  flex-grow: 4;
-  font-size: 1.5em;
+    visibility: collapse;
 }
-.other, a {
-  color:ghostwhite;
+
+.other,
+a {
+    color: ghostwhite;
 }
 
 .navigation {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .motto {
-  align-self: flex-end;
-  margin-right: 0.5em;
-  text-shadow: 2px 2px #353533;
-  font-size: 5em;
-  color: ghostwhite;
-  
+    align-self: flex-end;
+    margin-left: 15%;
+    text-shadow: 2px 2px #343B37;
+    font-size: 2em;
+
+    color: ghostwhite;
 }
 
 
 .block {
-  width: 100%;
-  justify-content: center;
-  display: flex;
-  margin: 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 0;
 }
 
 .mainly {
-  padding-top: 2em;
-  background-color: ghostwhite;
-  background-image: url("../img/fence_pattern.svg");
-  padding-bottom: 2em;
+    padding-top: 2em;
+    background-color: ghostwhite;
+    background-image: url("../img/fence_pattern.svg");
+    padding-bottom: 2em;
 }
 
 .text1 {
-  background-color: #343B37;
-  text-align: center;
-  font-size: 1.5em;
-  background-image: url("../img/pattern.svg");
-  background-size: 92%;
+    background-color: #343B37;
+    text-align: center;
+    background-image: url("../img/pattern.svg");
+    background-size: 92%;
 }
 
 .morely {
-  /* background-image: url("../img/dtu/DTU_Background_Pattern_Blue_RGB.jpg");
-  background-size: 40%;
-  background-repeat: repeat; */
-  /* background-color: #6E845D; */
-  background-color: #D1684A;
-  color: white;
+    /* background-image: url("../img/dtu/DTU_Background_Pattern_Blue_RGB.jpg");
+	background-size: 40%;
+	background-repeat: repeat; */
+    /* background-color: #6E845D; */
+    /* background-color: #D1684A; */
+    background-color: #e7e7e4;
+    color: #343b37;
+}
+
+.head-pink {
+    color: #6E845D;
+}
+
+.head-green {
+    color: #6E845D;
 }
 
 .inpane {
-  margin: 0.5em;
-  margin-left: 3em;
-  margin-right: 3em;
+    margin: 0.5em 3em;
+}
+
+.inpane a {
+    color: #D1684A;
 }
 
 .handle {
-  align-self:center;
-  justify-self: flex-end;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+@media screen and (min-device-width: 786px) {
+
+    .top-img {
+        height: 20%;
+    }
+
+    .handle {
+        align-self: center;
+        justify-self: flex-end;
+    }
+
+    .motto {
+				margin-left: 0;
+        margin-right: 0.5em;
+        color: ghostwhite;
+    }
+
+    .other {
+        padding-right: 10%;
+        border: ghostwhite;
+        border-bottom-style: solid;
+        width: 100%;
+        visibility: visible;
+        flex-grow: 4;
+        font-size: 1.5em;
+    }
+
+    .logo {
+        position: unset;
+				left: 0;
+        margin-left: 10%;
+    }
+
+    .logo-img {
+        width: 22%
+		}
+		
+		.text1 {
+        font-size: 1.5em;
+		}
 }
