@@ -174,20 +174,6 @@ textarea {
 }
 
 /* ==========================================================================
-	 EXAMPLE Media Queries for Responsive Design.
-	 These examples override the pri?mary ('mobile first') styles.
-	 Modify as content requires.
-	 ========================================================================== */
-
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-    ;
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
 	 Print styles.
 	 Inlined to avoid the additional HTTP request:
 	 https://www.phpied.com/delay-loading-your-print-css/
@@ -284,7 +270,7 @@ ul {
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    background-position: 50%;
+    background-position: 25%;
     justify-content: center;
     align-content: center;
     padding-bottom: 0;
