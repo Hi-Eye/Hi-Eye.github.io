@@ -277,7 +277,7 @@ ul {
 }
 
 .top-img {
-    background-image: url("../img/joel-filipe.jpg");
+    background-image: url("../img/joel-filipe25.jpg");
     text-shadow: 2px 2px #343B37;
     background-repeat: no-repeat;
     background-size: cover;
@@ -386,7 +386,8 @@ a {
 @media screen and (min-device-width: 786px) {
 
     .top-img {
-        height: 20%;
+        background-image: url("../img/joel-filipe50.jpg");
+				height: 20%;
     }
 
     .handle {
