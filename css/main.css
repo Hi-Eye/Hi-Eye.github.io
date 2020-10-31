@@ -11,6 +11,12 @@
 	 Base styles: opinionated defaults
 	 ========================================================================== */
 
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../img/Poppins_500.woff2')
+}
+
 html {
     color: ghostwhite;
     font-family: 'Poppins', sans-serif;
@@ -20,6 +26,7 @@ html {
     margin: 0;
     padding: 0;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -269,8 +276,8 @@ ul {
     background-size: cover;
     background-attachment: fixed;
     display: flex;
-    flex-direction: column;
     background-position: 25%;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     padding-bottom: 0;
@@ -285,8 +292,8 @@ ul {
 }
 
 .logo {
-		position: absolute;
-		left: 20%
+    position: absolute;
+    left: 20%
 }
 
 .logo-img {
@@ -373,7 +380,8 @@ a {
 
     .top-img {
         background-image: url("../img/joel-filipe50.jpg");
-				height: 20%;
+        height: 20%;
+        background-position: 0 200%;
     }
 
     .handle {
@@ -382,7 +390,7 @@ a {
     }
 
     .motto {
-				margin-left: 0;
+        margin-left: 0;
         margin-right: 0.5em;
         color: ghostwhite;
     }
@@ -399,15 +407,15 @@ a {
 
     .logo {
         position: unset;
-				left: 0;
+        left: 0;
         margin-left: 10%;
     }
 
     .logo-img {
         width: 22%
-		}
-		
-		.text1 {
+    }
+
+    .text1 {
         font-size: 1.5em;
-		}
+    }
 }
