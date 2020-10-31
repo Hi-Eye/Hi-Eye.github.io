@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	src:
+		local('Poppins Medium'),
+		local('Poppins-Medium'),
+		/* from https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2 */
+		url('Poppins_500.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLGT9Z1xlEw.woff */
+		url('Poppins_500.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLGT9Z1xlEQ.eot */
+		url('Poppins_500.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/l/font?kit=pxiByp8kv8JHgFVrLGT9Z1xlEg&skey=d4526a9b64c21b87&v=v13#Poppins */
+		url('Poppins_500.svg#Poppins') format('svg'),
+		/* from https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf */
+		url('Poppins_500.ttf') format('truetype');
+}
